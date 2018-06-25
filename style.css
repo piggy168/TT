@@ -271,7 +271,7 @@ form {
   float: left;
   display: inline;
   justify-content: center;
-  padding: 10px;
+  padding: 15px 0 5px;
 }
 
 .footer_icon_twitter {
@@ -292,5 +292,5 @@ form {
   font-size: 10px;
   text-align: right;
   height: 30px;
-  padding: 15px;
+  padding: 15px 0 5px;
 }
