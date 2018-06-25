@@ -78,7 +78,7 @@ body {
 }
 
 .block_info_container {
-  margin: 40px auto;
+  margin: 40px auto 20px;
   width: auto;
   display: flex;
   justify-content: center;
@@ -89,4 +89,208 @@ body {
   height: 100px;
   background-color: white;
   margin: 5px;
+}
+
+.block_info_title {
+  margin: 25px 20px 5px;
+  color: #999;
+  font-size: 16px;
+}
+
+.block_info_data {
+  margin: 5px 20px;
+  color: #ED5D20;
+  font-size: 24px;
+}
+
+.block_info_footer {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+  color: #666;
+}
+
+.block_button_container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.block_button_orange {
+  background-color: #ED5D20;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  height: 30px;
+  width: 130px;
+  margin: 5px;
+}
+
+.block_button_black {
+  background-color: #444;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  height: 30px;
+  width: 180px;
+  margin: 5px;
+}
+
+.application {
+  background-color: #CCC;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.application_text {
+  font-size: 30px;
+  width: 300px;
+}
+
+.application_info_container {
+  width: 300px;
+}
+
+.application_info_button_container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.application_info_button_orange {
+  color: #ED5D20;
+  border: 2px solid #ED5D20;
+  height: 30px;
+  width: 100px;
+  font-size: 12px;
+  text-align: center;
+  margin-right:10px;
+}
+
+.application_info_button_yellow {
+  background-color: #F8E12C;
+  border: 2px solid #F8E12C;
+  height: 30px;
+  width: 120px;
+  font-size: 12px;
+  text-align: center;
+  margin-right:10px;
+}
+
+.getting_started {
+  background-color: #FAFAFA;
+  padding: 40px;
+}
+
+.getting_started_title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.instruction_container {
+  display: flex;
+  justify-content: center;
+}
+
+.dev_resources {
+  width: 250px;
+  padding: 25px
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  color: #ED5D20;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.get_access {
+  width: 250px;
+  padding: 25px;
+}
+
+.get_access_text {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.get_access_button {
+  background-image: url(assets/button_orange.png);
+  height: 30px;
+  width: 200px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.subscription_container {
+  display: flex;
+  justify-content: center;
+}
+
+.subscription_text {
+  width: 300px;
+  margin: 40px;
+}
+
+form {
+  padding: 40px;
+}
+
+.subscribe {
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  font-size: 12px;
+}
+
+.subscribe_button {
+  background-color: #ED5D20;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+}
+
+.footer {
+  background-color: white;
+  height: 45px;
+}
+
+.footer_box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact_icon_container {
+  display: flex;
+  float: left;
+  display: inline;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer_icon_twitter {
+  background-image: url(assets/twitter.png);
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+}
+
+.footer_icon_reddit {
+  background-image: url(assets/reddit.png);
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+}
+
+.footer_text {
+  font-size: 10px;
+  text-align: right;
+  height: 20px;
+  padding: 10px;
 }
