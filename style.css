@@ -258,7 +258,7 @@ form {
 
 .footer {
   background-color: white;
-  height: 45px;
+  height: 40px;
 }
 
 .footer_box {
@@ -291,6 +291,6 @@ form {
 .footer_text {
   font-size: 10px;
   text-align: right;
-  height: 20px;
+  height: 30px;
   padding: 10px;
 }
